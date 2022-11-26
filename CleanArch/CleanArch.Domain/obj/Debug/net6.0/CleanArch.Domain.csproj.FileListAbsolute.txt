@@ -1,0 +1,12 @@
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.deps.json
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.dll
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.pdb
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.AssemblyReference.cache
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfoInputs.cache
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfo.cs
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.CoreCompileInputs.cache
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.dll
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\refint\CleanArch.Domain.dll
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.pdb
+C:\DotNet\CleanArch\CleanArch\CleanArch.Domain\obj\Debug\net6.0\ref\CleanArch.Domain.dll
