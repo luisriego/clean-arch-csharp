@@ -6,7 +6,26 @@ StreamerDbContext dbContext = new();
 
 // await AddNewRecords();
 // QueryStreaming();
-await QueryFilter();
+//await QueryFilter();
+await MultipleEntitiesQuery();
+
+async Task MultipleEntitiesQuery()
+{
+    var videoWithActors = await dbContext!.Videos!.Include(v => v.Actors).FirstOrDefaultAsync(v => v.Id == 1);
+}
+
+async Task AddNewDirectorWithVideo()
+{
+    var director = new Director
+    {
+        Name = "Lorenzo",
+        Surname = "Basteri",
+        VideoId = 1
+    };
+
+    await dbContext.AddRangeAsync(director);
+    await dbContext.SaveChangesAsync();
+}
 
 async Task QueryFilter()
 {
