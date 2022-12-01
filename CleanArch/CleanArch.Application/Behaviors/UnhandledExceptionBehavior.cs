@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace CleanArch.Application.Behaviors
 {
-    internal class UnhandledExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+    public class UnhandledExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
     {
         private readonly ILogger<TRequest> _logger;
 
@@ -22,6 +22,7 @@ namespace CleanArch.Application.Behaviors
             {
                 var requestName = typeof(TRequest).Name;
                 _logger.LogError(ex, "CleanArch Request: Unhandled Exception for Request {Name} {@Request}", requestName, request);
+                throw;
             }
         }
     }
