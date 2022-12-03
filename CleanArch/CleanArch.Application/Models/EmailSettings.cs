@@ -1,6 +1,6 @@
 ﻿namespace CleanArch.Application.Models
 {
-    internal class EmailSettings
+    public class EmailSettings
     {
         public string ApiKey { get; set; }
 

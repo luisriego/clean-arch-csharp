@@ -76,3 +76,6 @@ C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\CleanArch.Infrastru
 C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\CleanArch.Application.pdb
 C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\CleanArch.Infrastructure.pdb
 C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\CleanArch.Domain.pdb
+C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\SendGrid.dll
+C:\DotNet\CleanArch\CleanArch\CleanArch.api\bin\Debug\net6.0\StarkbankEcdsa.dll
